@@ -12,6 +12,8 @@ class PaketFitur extends Model
 
     public $timestamps = false;
 
+    protected $table = 'paket_fitur';
+
     protected $fillable = [
         'paket_harga_id',
         'fitur_text',

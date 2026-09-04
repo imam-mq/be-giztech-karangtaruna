@@ -11,6 +11,8 @@ class PaketHarga extends Model
 {
     use HasFactory;
 
+    protected $table = 'paket_harga';
+
     protected $fillable  = [
         'layanan_id',
         'nama_paket',
